@@ -1,0 +1,82 @@
+
+#allContent {}
+#popout{
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 200;
+	background-image: url('spacer.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat:repeat;
+	background-color: rgba(255, 255, 255, 0.23);
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+.popdetails {  background: -moz-linear-gradient(
+                            center bottom,
+                            rgb(100,60,20) 0%,
+                            rgb(100,16,16) 74%,
+                            rgb(64,0,0) 100%
+                        );
+						 float:left; 
+						width:97%;
+			}
+.popdetails h4 { color:#fff; font-family:Tahoma, Geneva, sans-serif;}
+#pop { clear:both; font-size:20px;}
+#pop td { text-align:left;}
+#pop td a { text-align:left; text-decoration:underline; color:#990000;}
+#pop table { margin-top:5%;}
+#popoutContents{
+	position: relative;
+	z-index: 1000;
+	margin: 5px auto;
+	margin-top: 40px;
+	width: 900px;
+	padding: 5px;
+	min-height: 450px;
+	border-radius: 5px;
+	border-bottom:7px solid #900;
+	background-color: #fff;
+	box-shadow: 0px 1px 1px #333;
+	text-align: center;
+	font-family: calibri Light;
+	font-size: 20px;
+	padding: 20px;
+	color: #333;
+	opacity:0.9;
+}
+
+
+#close img{
+	float: right;
+	margin: -5px;
+	padding: 5px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+#close img:hover{
+	background-color: #999999;
+}
+
+
+
+
+
+#chartInfo{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #000000;
+	padding: 15px;
+	color: #fff;
+	font-family: calibri Light;
+	font-size: 15px;
+	text-align: center;
+}
+

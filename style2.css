@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+* { padding:0px; margin:0px; }
+
+h3 { font-family:cursive; }
+a { text-decoration:none; }
+
+.details { color:#900; }
+
+.txt {
+		padding:5px;
+		width:80%;
+		border:solid 2px;
+	}
+.tx {
+		padding:2px;
+		width:30%;
+		border:solid 2px;
+	}
+.dash {  font-weight:bold;}
+.dash-items { width:200px; background:#990000; margin:2%; height:100px; float:left; box-shadow:0px 0px 4px black;}
+.dash-items:hover { width:200px; background: -moz-linear-gradient(
+                            center bottom,
+                            rgb(100,60,20) 0%,
+                            rgb(100,16,16) 74%,
+                            rgb(64,0,0) 100%
+                        );
+						 margin:2%;
+						  height:100px; 
+						  float:left; 
+						  box-shadow:0px 0px 4px black;}
+.dash-items h2 { }
+.dash-con { margin:auto; margin-bottom:1%; width:80%; height:300px;  border:solid 1px #660000; padding:2%; text-align:center;}
+.dash-inner { margin-left:5%; padding:2px;  width:65%;}
+#department { border-bottom-left-radius:15px;}
+#school { border-bottom-right-radius:15px;}
+#student {  border-top-left-radius:15px}
+#supervisor { border-top-right-radius:15px;}
+.notification { text-shadow:1px 1px 1px black;}
+.field { padding:10px; width:90%; margin-top:3%; }
+legend { padding:5px; margin-left:10%; font-family:cursive; font-weight:bold;}
+.sButton { padding:5px;  background: -moz-linear-gradient(
+                            center bottom,
+                            rgb(100,60,20) 0%,
+                            rgb(100,16,16) 74%,
+                            rgb(64,0,0) 100%
+                        );
+			width:200px; color:gold; font-weight:bold; border-bottom:solid 4px #900000; box-shadow:0px 0px 5px #000000;
+		}
+.scroll { height:98%; overflow:auto;}
+.searchfeild { background:#930; }
+.searchitems { margin-left:5%; display:inline;   padding:4px;}
+#sitems { width:80%; font-family:calibri; 
+						background: -moz-linear-gradient(
+                            center bottom,
+                            rgb(120,120,60) 0%,
+                           rgb(0,102,0) 54%,
+                            rgb(120,60,60) 100%
+                        );; border-radius:8px; font-family:cursive; }
+.wrapper {  
+			height:100%; width:100%; margin:2px auto;
+			
+		}
+
+.header	{ 
+			background:#eeeeee;
+		  height:100px; width:100%; 
+		  text-align:center;
+		  border-bottom:solid 2px #880000;
+		  }
+.dept {  float:right; margin-right:4%; margin-top:5%; font-family:cursive; }
+.logo { 
+		 float:left;
+		 margin-left:36%;
+		
+}
+.sitetitle {		
+			 
+			height:60px;
+			font-family: Tahoma, Geneva, sans-serif;
+			
+			padding-top:10px;
+			float:left;
+			margin-left:5px;
+			/*margin-top:10px;*/
+			}
+.content { 
+			border-bottom:groove 1px #960;
+			border-top:none;
+			height:500px; width:100%;	
+			background:#fff;
+		}
+.leftNav {
+			float:left;
+            background: #F9F9F9;
+			box-shadow:0px 0px 5px #000000;
+            background: -webkit-gradient(
+                            linear,
+                            left bottom,
+                            left top,
+                            color-stop(0, rgb(60,60,60)),
+                            color-stop(0.74, rgb(43,43,43)),
+                            color-stop(1, rgb(60,60,60))
+                        );
+            background: -moz-linear-gradient(
+                            center bottom,
+                            rgb(120,120,60) 0%,
+                            rgb(63,43,63) 74%,
+                            rgb(120,60,60) 100%
+                        );
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			border-radius:0px 10px 10px 0px;
+           
+			width: 20%;
+			height:480px;	
+		}
+.navitems {
+			display:block;
+			background:#ededed;
+			padding:2px;
+			width:70%;
+			margin-top:4px;
+			margin-left:10px;
+			border-radius:10px 0px 10px 0px;
+		
+			text-align:center;
+		}
+
+.navitems:hover { background:#cccccc; }
+.conLink { width:40px; background:white; float:left;}
+.rightcon{
+			margin:0.2% 0% 0.8% 2%;
+			float:left;
+			
+			height:438px;
+			width:75%;
+			background:#dddddd;
+			box-shadow:0px 0px 5px #000000;
+			border-radius:10px;
+			padding:5px;
+		}
+
+.clear { clear:both; width:100%; height:1px; margin-top:0px;}
+.loginInclude {
+				margin-top:6%;
+				 	
+				}
