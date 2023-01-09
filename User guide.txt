@@ -1,0 +1,6 @@
+1.log onto lacalhost/archive/home.php
+
+2. add department with a username and password then logout
+3. from the homepage, select department and login with the username and password u created
+4. add project supervisors
+5. add projects
